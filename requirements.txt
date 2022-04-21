@@ -2,9 +2,9 @@
 -e .
 
 # external requirements
-click
-Sphinx
-coverage
-awscli
-flake8
+click~=8.0.4
 python-dotenv>=0.5.1
+
+pandas~=1.4.1
+boto3~=1.21.13
+setuptools~=57.0.0
